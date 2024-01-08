@@ -1,0 +1,39 @@
+body{
+    background-color: #f0f0f0;
+ }
+ h1{
+    color: red;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+ }
+ p{
+    font-size: large;
+    text-align: center;
+    font-size: bold;
+    color: deeppink;
+ }
+ img{
+    max-width: 25%;
+    max-height: 25%;
+ }
+ 
+ ol li {
+    font-size: 20px;
+    color: blueviolet;
+    
+ }
+ ul li {
+   color: green;
+   font-weight: bold;
+   background-color: gold;
+   text-align: center;
+}
+ .enviar{
+    border-radius: 5px;
+    background-color: blue;
+
+ }
+.etiqueta{
+    background-color: aqua;
+}  
