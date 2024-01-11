@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+.a{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    color: blue;
+    padding: 10px;
+    justify-items: center;
+    display: flex;
+}
