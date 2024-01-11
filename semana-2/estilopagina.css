@@ -1,0 +1,133 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #000000;
+    --morado: #6f2cff;
+    --corazón-rojo: #a50954;
+    --corazón-azul: #acd9b2;
+    --luz-púrpura: #dacfd8;
+    --sm: 14px;
+    --md: 20px;
+    --lg: 60px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: var(--blanco);
+    color: var(--negro);
+    text-align: center;
+}
+
+.brochure {
+    padding: 20px;
+}
+
+.title {
+    font-size: var(--lg);
+    margin-bottom: 10px;
+    color: var(--morado);
+}
+
+.subtitle {
+    font-size: var(--md);
+    margin-bottom: 15px;
+}
+
+.primary-button {
+    background-color: var(--morado);
+    color: var(--blanco);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: var(--md);
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: var(--corazón-azul);
+}
+
+.more-info {
+    background-color: var(--luz-púrpura);
+    padding: 40px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.icon-title {
+    font-size: var(--md);
+    color: var(--corazón-rojo);
+}
+
+.icon-text {
+    font-size: var(--sm);
+    color: var(--negro);
+}
+
+/* Media queries para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: var(--md);
+    }
+
+    .subtitle {
+        font-size: var(--sm);
+    }
+
+    .primary-button {
+        padding: 10px 20px;
+        font-size: var(--sm);
+    }
+
+    .more-info {
+        padding: 20px;
+    }
+
+    .icon-title {
+        font-size: var(--sm);
+    }
+
+    .icon-text {
+        font-size: var(--sm);
+    }
+}
+
+/* Media queries para tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .title {
+        font-size: var(--md);
+    }
+
+    .subtitle {
+        font-size: var(--md);
+    }
+
+    .primary-button {
+        padding: 15px 25px;
+        font-size: var(--md);
+    }
+
+    .more-info {
+        padding: 30px;
+    }
+
+    .icon-title {
+        font-size: var(--md);
+    }
+
+    .icon-text {
+        font-size: var(--sm);
+    }
+}
