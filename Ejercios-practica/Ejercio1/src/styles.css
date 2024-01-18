@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  background-color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 10px 2px;
+  color: #fff; 
+  font-weight: bold; 
+}
+
+button:nth-of-type(1) {
+  background: #28a745; 
+  height: 40px;
+  width: 50px;
+}
+
+button:nth-of-type(2) {
+  background: #dc3545; 
+  height: 40px;
+  width: 50px;
+}
+
+button:nth-of-type(3) {
+  background: #ffc107; 
+  height: 40px;
+  width: 50px;
+}
+
+h1 {
+  color: #ff0000;
+}
