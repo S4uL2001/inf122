@@ -41,11 +41,13 @@ function Juego() {
     const saltarA = (movimiento) => {
         console.log("movimiento", movimiento);
         setNroMovimiento(movimiento);
-        setJugador(jugador === "X" ? "O" : "X");
+        setJugador(movimiento % 2 === 0 ? "X" : "O");
         setGanador(null);
         setJuegoTerminado(false);
     }
+    
     const reiniciarJuego = () => {
+        console.log("Reiniciar")
         setHistorial([{ cuadros: Array(9).fill(null) }]);
         setNroMovimiento(0);
         setCuadros(Array(9).fill(null));
