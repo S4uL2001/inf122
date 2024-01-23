@@ -1,0 +1,45 @@
+.informacion-juego {
+    margin-top: 20px;
+  }
+  
+  .informacion-juego p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 0%;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  span {
+    font-size: 0.9em;
+    color: #555;
+    margin-left: 5px;
+  }
+  @media (max-width: 768px) {
+    
+    button {
+        font-size: 14px;
+        padding: 3px 6px;
+        margin-top: 5px;
+    }
+}
